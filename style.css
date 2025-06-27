@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+    font-family: RobotoSlab;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    color: gold;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    font-family: Montserrat;
+}
+
+nav a {
+    text-decoration: none;
+    color: gold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.services {
+    text-align: center;
+    padding: 60px 20px;
+
+}
+
+.services h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.contact {
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.contact-form .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 250px;
+}
+
+.contact-form .right {
+    flex: 1;
+    min-width: 250px;
+
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 140px;
+    
+}
+
+.button-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form button {
+    background-color: #FED136;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
